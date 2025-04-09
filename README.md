@@ -1,12 +1,14 @@
 # Base de Datos - Videoclub 🎬
 
-Este proyecto simula un sistema de videoclub utilizando PostgreSQL. Incluye la definición del esquema, inserción de datos representativos y una colección de consultas SQL que abordan aspectos operativos, estadísticos y restricciones de negocio.
+Este proyecto simula un sistema de videoclub utilizando PostgreSQL. Incluye la definición del esquema, inserción de datos representativos y una colección de consultas SQL que abordan aspectos operativos, estadísticos , restricciones de negocio y vistas.
 
 ## 📁 Estructura del proyecto
 
 - `bbdd_peliculas.sql`: Script de creación de las tablas.
 - `insert_data.sql`: Inserción de datos mínimos para poder ejecutar las consultas.
-- `consultas.sql`: Conjunto de consultas SQL clasificadas y comentadas.
+- `peliculas_queries.sql`: Conjunto de consultas SQL clasificadas y comentadas.
+- `peliculas_view.sql`: Vistas creadas sobre la base de datos para simplificar consultas o abstraer lógica.
+- `unc_esq_peliculas.png`: esquema grafico de las tablas integrantes de la base de datos.
 - `README.md`: Descripción del proyecto (este archivo).
 
 ## 🔍 ¿Qué contiene?
@@ -37,14 +39,17 @@ Este proyecto fue desarrollado en el marco de una asignatura universitaria. Su e
 
 # Film Rental Database 🎬
 
-This project simulates a video rental system using PostgreSQL. It includes the schema definition, representative data inserts, and a collection of SQL queries that cover operational aspects, statistics, and business logic constraints.
+This project simulates a video rental system using PostgreSQL. It includes the schema definition, representative data inserts, and a collection of SQL queries that cover operational aspects, statistics,  business logic constraints and views.
 
 ## 📁 Project structure
 
-- `bbdd_peliculas.sql`: Script to create the database tables.
-- `insert_data.sql`: Insert sample data to enable query execution.
-- `consultas.sql`: Collection of categorized and commented SQL queries.
+- `bbdd_peliculas.sql`: Script for creating the database tables.  
+- `insert_data.sql`: Minimal data insertion to allow query execution.  
+- `peliculas_queries.sql`: Set of categorized and commented SQL queries.  
+- `peliculas_view.sql`: Views created over the database to simplify queries or abstract logic.  
+- `unc_esq_peliculas.png`: Graphic schema of the database tables.  
 - `README.md`: Project description (this file).
+
 
 ## 🔍 What's included?
 
